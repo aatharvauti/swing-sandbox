@@ -23,7 +23,7 @@ public class Main
 		frame.setResizable(false); // prevent frame from being resized
 //      frame.setSize(420,420); // sets x and y dimension of frame
 		
-		frame.setVisible(true); // make frame visible
+//		frame.setVisible(true); // make frame visible
 		
 		ImageIcon image = new ImageIcon("/home/syn4ck/code/swing/apps/src/apps/logo.png"); // create ImageIcon
 //		ImageIcon image = new ImageIcon("/apps/src/apps/logo.png");
@@ -66,7 +66,7 @@ public class Main
 		label.setBorder(border); // set border
 		
 		frame.add(label); // add label to the frame
-		frame.pack(); // resize size of frame to fit contents
+
 		
 		// Chapter 3: Panels
 		
@@ -78,11 +78,11 @@ public class Main
 //		redpanel.setLayout(new BorderLayout()); // use layout manager, if not using bounds
 //
 //		frame.add(redpanel); //add "redpanel" to the "frame"
-	
+		
 		// Chapter 4: Buttons
 		
-		
-		
-		
+		new Buttons();
+
+		frame.pack(); // resize size of frame to fit contents
 	}
 }
