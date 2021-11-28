@@ -9,7 +9,6 @@ public class MyFrame extends JFrame {
 	
 	MyFrame() {
 
-
 		this.setTitle("JFrame title goes here :D"); // set title
 		
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // exit out of app
