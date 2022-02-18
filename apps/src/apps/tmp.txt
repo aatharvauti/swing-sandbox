@@ -1,0 +1,5 @@
+apiText = new JTextField();
+apiText.setBounds(158, 77, 209, 19);
+frame.getContentPane().add(apiText);
+Usern.setColumns(10);
+
